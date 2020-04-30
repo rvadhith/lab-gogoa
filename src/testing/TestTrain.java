@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class TestTrain {
 	LocalDate ld = LocalDate.of(2020, 02, 03);
-	Train train = new Train(2,1500,"nonac",ld);
+	Train train = new Train(2,"nonac",1500,ld);
 	
 	@Test
 	public void testGetNoOfPersonMethod() {

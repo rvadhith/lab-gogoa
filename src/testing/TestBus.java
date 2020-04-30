@@ -9,7 +9,7 @@ import org.junit.Test;
 
 public class TestBus {
 	LocalDate ld = LocalDate.of(2020, 02, 03);
-	Bus bus = new Bus(2, 1500, "acsleeper", ld);
+	Bus bus = new Bus(2, "acsleeper", 1500, ld);
 
 	@Test
 	public void testGetNoOfPersonMethod() {

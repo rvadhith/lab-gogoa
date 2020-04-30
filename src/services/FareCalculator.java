@@ -18,8 +18,7 @@ public class FareCalculator extends Booking {
 		if(flight.getTriptype() == "one-way"){
 			flightRate = super.booking(flight.getNoOfPersons(), flight.getRates());
 		}
-		else
-		{
+		else{
 			if(flight.getTo().isAfter(flight.getFrom()))
 				flightRate = super.booking(flight.getNoOfPersons(), flight.getRates());
 		} 
